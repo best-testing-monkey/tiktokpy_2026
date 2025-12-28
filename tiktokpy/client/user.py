@@ -4,10 +4,10 @@ from typing import List
 from playwright.async_api import Page, TimeoutError
 from tqdm import tqdm
 
-from tiktokpy.client import Client
-from tiktokpy.utils import unique_dicts_by_key
-from tiktokpy.utils.client import catch_response_and_store, catch_response_info
-from tiktokpy.utils.logger import logger
+from tiktokpy_2026.tiktokpy.client import Client
+from tiktokpy_2026.tiktokpy.utils import unique_dicts_by_key
+from tiktokpy_2026.tiktokpy.utils.client import catch_response_and_store, catch_response_info
+from tiktokpy_2026.tiktokpy.utils.logger import logger
 
 FEED_LIST_ITEM = 'div[data-e2e="recommend-list-item-container"]'
 USER_FEED_LIST = 'div[data-e2e="user-post-item-list"]'

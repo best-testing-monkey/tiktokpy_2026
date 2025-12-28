@@ -5,9 +5,9 @@ from typing import List, Optional
 from dynaconf import settings
 from tqdm import tqdm
 
-from tiktokpy.client import Client
-from tiktokpy.utils.client import catch_response_and_store
-from tiktokpy.utils.logger import logger
+from tiktokpy_2026.tiktokpy.client import Client
+from tiktokpy_2026.tiktokpy.utils.client import catch_response_and_store
+from tiktokpy_2026.tiktokpy.utils.logger import logger
 
 FEED_LIST_ITEM = 'div[data-e2e="recommend-list-item-container"]'
 FEED_LIST_ITEM_FIRST_CHILD = f"{FEED_LIST_ITEM}:first-child"

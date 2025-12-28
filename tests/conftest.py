@@ -1,7 +1,6 @@
 import pytest
 
-from tiktokpy import TikTokPy
-
+from tiktokpy_2026.tiktokpy import TikTokPy
 
 @pytest.fixture()
 async def bot() -> TikTokPy:

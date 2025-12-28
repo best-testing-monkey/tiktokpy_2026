@@ -1,7 +1,7 @@
 import typer
 
-from tiktokpy import TikTokPy
-from tiktokpy.cli.utils import coro
+from tiktokpy_2026.tiktokpy import TikTokPy
+from tiktokpy_2026.tiktokpy.cli.utils import coro
 
 app = typer.Typer()
 

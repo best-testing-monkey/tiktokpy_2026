@@ -3,7 +3,7 @@ from typing import Optional
 
 from dynaconf import loaders, settings
 
-from tiktokpy.utils.logger import logger
+from tiktokpy_2026.tiktokpy.utils.logger import logger
 
 DEFAULT_PATH = "settings.toml"
 BASE_SETTINGS = {

@@ -2,7 +2,7 @@ from typing import List
 
 from playwright.async_api import Response, Route
 
-from tiktokpy.utils.logger import logger
+from tiktokpy_2026.tiktokpy.utils.logger import logger
 
 
 async def block_resources_and_sentry(route: Route, types: List[str]):

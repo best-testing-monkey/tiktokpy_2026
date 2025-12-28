@@ -2,9 +2,9 @@ import json
 
 from dynaconf import loaders, settings
 
-from tiktokpy.client import Client
-from tiktokpy.utils.logger import logger
-from tiktokpy.utils.settings import BASE_SETTINGS
+from tiktokpy_2026.tiktokpy.client import Client
+from tiktokpy_2026.tiktokpy.utils.logger import logger
+from tiktokpy_2026.tiktokpy.utils.settings import BASE_SETTINGS
 
 
 class Login:

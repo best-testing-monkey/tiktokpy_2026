@@ -1,7 +1,7 @@
 from functools import wraps
 from typing import Any, Callable
 
-from tiktokpy.utils.logger import logger
+from tiktokpy_2026.tiktokpy.utils.logger import logger
 
 
 def login_required(empty_result: Any = None):

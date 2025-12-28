@@ -1,8 +1,8 @@
 import pytest
 from loguru import logger
 
-from tiktokpy import TikTokPy
-from tiktokpy.models.feed import FeedItem
+from tiktokpy_2026.tiktokpy import TikTokPy
+from tiktokpy_2026.tiktokpy.models.feed import FeedItem
 
 
 @pytest.mark.asyncio()

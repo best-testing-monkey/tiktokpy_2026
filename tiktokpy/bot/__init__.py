@@ -8,14 +8,14 @@ from typing import List, Optional
 import humanize
 from dynaconf import settings
 
-from tiktokpy.bot.decorators import login_required
-from tiktokpy.client import Client
-from tiktokpy.client.login import Login
-from tiktokpy.client.trending import Trending
-from tiktokpy.client.user import User
-from tiktokpy.models.feed import FeedItem, FeedItems
-from tiktokpy.utils.logger import init_logger, logger
-from tiktokpy.utils.settings import load_or_create_settings
+from tiktokpy_2026.tiktokpy.bot.decorators import login_required
+from tiktokpy_2026.tiktokpy.client import Client
+from tiktokpy_2026.tiktokpy.client.login import Login
+from tiktokpy_2026.tiktokpy.client.trending import Trending
+from tiktokpy_2026.tiktokpy.client.user import User
+from tiktokpy_2026.tiktokpy.models.feed import FeedItem, FeedItems
+from tiktokpy_2026.tiktokpy.utils.logger import init_logger, logger
+from tiktokpy_2026.tiktokpy.utils.settings import load_or_create_settings
 
 from .version import __version__
 

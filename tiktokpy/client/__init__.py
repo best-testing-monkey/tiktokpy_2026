@@ -8,8 +8,8 @@ from dynaconf import settings
 from playwright.async_api import Browser, Page, Playwright, PlaywrightContextManager, Response
 from playwright_stealth import StealthConfig, stealth_async
 
-from tiktokpy.utils.client import block_resources_and_sentry
-from tiktokpy.utils.logger import logger
+from tiktokpy_2026.tiktokpy.utils.client import block_resources_and_sentry
+from tiktokpy_2026.tiktokpy.utils.logger import logger
 
 
 class Client:

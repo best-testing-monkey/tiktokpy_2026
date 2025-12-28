@@ -1,6 +1,6 @@
 import asyncio
 
-from tiktokpy import TikTokPy
+from tiktokpy_2026.tiktokpy import TikTokPy
 
 
 async def main():
